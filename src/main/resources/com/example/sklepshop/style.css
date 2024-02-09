@@ -1,0 +1,241 @@
+
+
+#menuBar{
+        -fx-background-color: #75706f;
+        -fx-alignment:center;
+}
+    .menu .label{
+        -fx-text-fill: white;
+    }
+
+
+#mainBox{
+        -fx-background-image:url('canvas/bg.jpg');
+        -fx-background-color: linear-gradient(from 0% 0% to 120% 50%, #720026, #be4257, #ff9b54);
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+
+        -fx-font-family: Trebuchet MS, serif;
+        -fx-font-style: bold;
+        -fx-font-weight: 0;
+        -fx-font-size: 22px;
+}
+
+.button{
+    -fx-background-color: #494848;
+    -fx-border-width:5px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-text-fill: white;
+}
+
+.buttonSpecial{
+    -fx-background-color: #fed332;
+    -fx-border-width:5px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-text-fill: #494848;
+}
+
+.scroll-pane, #settlePane
+{
+        -fx-background: transparent;
+        -fx-background-color: rgba(0,0,0,0.5);
+         -fx-border-width:5px;
+         -fx-border-color:#fed332;
+         -fx-border-radius:15px;
+         -fx-background-radius: 15px;
+         -fx-padding: 0;
+}
+    .scroll-bar:vertical{
+            -fx-padding:3px;
+            -fx-background-color: #fed332;
+            -fx-background-radius: 0 15px 15px 0;
+            -fx-border-width:10px;
+            -fx-border-color:transparent;
+            -fx-background-insets: -5px;
+    }
+    .scroll-bar:vertical > .track{
+            -fx-background-color: #75706f;
+            -fx-background-radius: 15px;
+    }
+    .scroll-bar:vertical > .thumb
+    {
+            -fx-background-color: #494848;
+            -fx-background-radius: 15px;
+    }
+    .scroll-bar > .increment-button > .increment-arrow,
+    .scroll-bar > .decrement-button > .decrement-arrow{
+             -fx-background-color: #75706f;
+             -fx-background-color: ;
+             -fx-background-radius: 15px;
+    }
+
+#flowPane, #addedPane, .settlePane{
+         -fx-background-color: rgba(255,255,255,0.0);
+         -fx-border-color: transparent;
+         -fx-border-width:5px;
+         -fx-border-radius:15px;
+         -fx-background-radius: 15px;
+         -fx-alignment: center;
+}
+    #addedPane{-fx-border-width:18px; -fx-background-radius:12px;}
+
+    .cart-boxes{
+        -fx-background-color: #494848;
+        -fx-border-width:5px;
+        -fx-border-color: transparent;
+        -fx-border-radius:90px;
+         -fx-background-radius: 15px;
+        -fx-padding: 10px;
+        -fx-alignment: center;
+        -fx-font-size: 15px;
+         -fx-background-insets: 5px;
+    }
+
+
+.productBox{
+        -fx-background-color: #494848;
+        -fx-padding: 15px;
+        -fx-border-insets: 5px;
+        -fx-border-color: #494848;
+        -fx-border-width: 5px;
+        -fx-border-radius: 15px;
+        -fx-background-radius: 15px;
+        -fx-background-insets: 10px;
+        -fx-alignment: center ;
+}
+
+    .productLabels{
+        -fx-font-size: 10px;
+        -fx-text-fill: white;
+    }
+
+
+.table-view{
+            -fx-background: transparent;
+            -fx-background-color: rgba(0,0,0,0.5);
+             -fx-border-width:5px;
+             -fx-border-color:#fed332;
+             -fx-border-radius:15px;
+             -fx-background-radius: 15px;
+             -fx-padding: 0;
+}
+    .table-view .column-header-background{
+        -fx-background-color: #fed332;
+        -fx-background-radius: 11px 0 0 0;
+    }
+
+    .table-view .column-header-background .label{
+        -fx-background-color: transparent;
+        -fx-text-fill: white;
+    }
+    .table-view .virtual-flow .scroll-bar:vertical,
+    .table-view .virtual-flow .scroll-bar:vertical .track,
+    .table-view .virtual-flow .scroll-bar:vertical .track-background,
+    .table-view .virtual-flow .scroll-bar:horizontal,
+    .table-view .virtual-flow .scroll-bar:horizontal .track,
+    .table-view .virtual-flow .scroll-bar:horizontal .track-background {
+                    -fx-padding:3px;
+                    -fx-background-color: #fed332;
+                    -fx-background-radius: 0 15px 15px 0;
+                    -fx-border-width:10px;
+                    -fx-border-color:transparent;
+    }
+    .table-view .column-header {
+        -fx-background-color: transparent;
+    }
+
+
+#editProductActionBox, #boxFileChooser{
+        -fx-background: transparent;
+        -fx-background-color: rgba(0,0,0,0.5);
+         -fx-border-width:5px;
+         -fx-border-color:#fed332;
+         -fx-border-radius:15px;
+         -fx-background-radius: 15px;
+         -fx-padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.check-box, .radio-button{
+      -fx-font-size: 15px;
+     -fx-text-fill: white;
+}
+    .radio-button .radio {
+        -fx-background-color: white;
+        -fx-background-image: null;
+        -fx-padding: 2px;
+    }
+        .radio-button .dot {
+            -fx-background-radius: 100px;
+            -fx-padding: 5px;
+        }
+        .radio-button:selected .radio {
+            -fx-background-color: #fed332;
+            -fx-background-image: null;
+        }
+
+    .check-box .box{
+        -fx-background-color: white;
+        -fx-border-width: 0px;
+                -fx-padding: 0px;
+    }
+        .check-box:selected .mark {
+            -fx-background-color: #494848;
+            -fx-padding: 5px;
+        }
+        .check-box:selected .box {
+            -fx-background-color: #fed332;
+            -fx-padding: 4px;
+        }
+
+
+
+.searchField, .titledPane > .title{
+    -fx-background-color: #fed332;
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+    -fx-border-width:5px;
+    -fx-border-radius:15px;
+     -fx-font-family: Trebuchet MS, sans-serif;
+     -fx-font-weight: 650;
+     -fx-background-radius: 15px;
+ }
+    .text-field > {
+            -fx-prompt-text-fill: #494848;
+       }
+    .titled-pane > .title > .arrow-button .arrow
+     {
+        -fx-background-color: #494848;
+     }
+     .titled-pane > *.content
+     {
+        -fx-background-color: transparent;
+        -fx-box-border: 0px;
+     }
+     .titled-pane:expanded > .title
+     {
+          -fx-background-radius: 15px 15px 0 0;
+     }
+ .titledPaneBox{
+     -fx-background-color: #494848;
+     -fx-background-radius: 0 0 15px 15px;
+     -fx-border-width: 0 5px 5px 5px;
+     -fx-border-color: #fed332;
+     -fx-border-radius: 0 0 12px 12px;
+     -fx-text-fill: #494848;
+     -fx-font-size: 15px;
+     -fx-font-weight: 650;
+     -fx-alignment:center;
+}
+

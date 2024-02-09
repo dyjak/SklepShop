@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Main-Class: com.example.sklepshop.Main
+Class-Path: javafx-base-17.0.2.jar FastInfoset-1.2.15.jar apiguardian-ap
+ i-1.1.2.jar txw2-2.3.1.jar javafx-graphics-17.0.2-win.jar jboss-transac
+ tion-api_1.2_spec-1.1.1.Final.jar jaxb-api-2.3.1.jar stax-ex-1.8.jar de
+ rbyshared-10.15.2.0.jar derbyclient-10.15.2.0.jar junit-platform-common
+ s-1.9.1.jar hibernate-core-5.6.1.Final.jar opentest4j-1.2.0.jar hiberna
+ te-commons-annotations-5.1.2.Final.jar jaxb-runtime-2.3.1.jar antlr-2.7
+ .7.jar classmate-1.5.1.jar javafx-controls-17.0.2.jar javafx-fxml-17.0.
+ 2-win.jar jandex-2.2.3.Final.jar javafx-fxml-17.0.2.jar javax.activatio
+ n-api-1.2.0.jar javafx-controls-17.0.2-win.jar derby-10.15.2.0.jar juni
+ t-jupiter-engine-5.9.1.jar sqlite-jdbc-3.40.0.0.jar istack-commons-runt
+ ime-3.0.7.jar sqlite-dialect-0.1.2.jar junit-platform-engine-1.9.1.jar 
+ javafx-graphics-17.0.2.jar jboss-logging-3.4.2.Final.jar javax.persiste
+ nce-api-2.2.jar javafx-base-17.0.2-win.jar junit-jupiter-api-5.9.1.jar 
+ byte-buddy-1.11.20.jar
+

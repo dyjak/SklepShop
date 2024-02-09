@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+<!--        <property name="hibernate.connection.url">jdbc:sqlite:C:\Users\DYIAKOV\Desktop\baza_miescowosci.db</property>-->
+        <property name="hibernate.connection.url">jdbc:sqlite:C:\Users\Dyjak\Desktop\products.db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">ZAQ!2wsx</property>
+        <!-- Opcja będzie wypisywać zapytania SQL w konsoli -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- scieżka do klasy sterownika -->
+        <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
+        <!-- Dialekt bazy danych - silniki bazodanowe różnią się nieznacznie składnią, typami danych, funkcjami -->
+        <property name="hibernate.dialect">org.sqlite.hibernate.dialect.SQLiteDialect</property>
+        <!-- Opcja umożliwia zdefiniowanie zachowania przy łączeniu z bazą danych. create-drop usunie tabele a następnie utworzy je na nowo -->
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+
+        <!-- Wskazanie klas mapujących tabele w bazie danych na obiekty java. -->
+        <mapping class="com.example.sklepshop.entities.Product"></mapping>
+        <mapping class="com.example.sklepshop.entities.Settlement"></mapping>
+
+    </session-factory>
+</hibernate-configuration>

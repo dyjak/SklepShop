@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainBox" fx:id="anchorMainScene" cacheShape="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <HBox alignment="CENTER" prefHeight="0.0" prefWidth="1281.0" style="-fx-background-color: #75706f;">
+         <children>
+            <Button fx:id="switchToSettlemetsScene" alignment="BOTTOM_CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="35.0" prefWidth="115.0" text="Settlements">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="50.0" right="20.0" top="10.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow height="89.0" radius="42.177499999999995" spread="0.19" width="81.71">
+                     <color>
+                        <Color opacity="0.31761008501052856" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="switchToProductsScene" alignment="BOTTOM_CENTER" contentDisplay="RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Products">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow height="89.0" radius="42.177499999999995" spread="0.19" width="81.71">
+                     <color>
+                        <Color opacity="0.31761008501052856" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="switchToLoadDBScene" alignment="BOTTOM_CENTER" contentDisplay="RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Load database">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow height="89.0" radius="42.177499999999995" spread="0.19" width="81.71">
+                     <color>
+                        <Color opacity="0.31761008501052856" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="108.43" radius="26.6075" spread="0.65" width="0.0" />
+         </effect>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="77.0" prefHeight="643.0" prefWidth="1281.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <TableView fx:id="tableView" prefHeight="334.0" prefWidth="1181.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="50.0" right="50.0" top="20.0" />
+               </VBox.margin>
+            </TableView>
+            <GridPane prefHeight="80.0" prefWidth="1181.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="751.0" minWidth="10.0" prefWidth="751.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="585.0" minWidth="10.0" prefWidth="430.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <VBox.margin>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="20.0" />
+               </VBox.margin>
+               <children>
+                  <HBox id="editProductActionBox" alignment="CENTER" prefHeight="51.0" prefWidth="591.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="87.0" prefWidth="395.0">
+                           <children>
+                              <Label fx:id="labelSelectedProductID" text="Edit product (id: ?)" />
+                              <Label fx:id="labelSelectedProductExpanded" text="...">
+                                 <font>
+                                    <Font size="9.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <Button fx:id="btnDeleteProduct" disable="true" mnemonicParsing="false" text="Delete">
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnEditProduct" disable="true" mnemonicParsing="false" text="Edit">
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Button fx:id="btnAddProduct" mnemonicParsing="false" styleClass="buttonSpecial" text="Add new product" />
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
