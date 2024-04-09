@@ -2,11 +2,12 @@
 
 # SKLEPSHOP
 
+![Alt text]("Screenshot_1.png)
+
+
 
 
 1
-
-
 
 <a name="br2"></a> 
 
