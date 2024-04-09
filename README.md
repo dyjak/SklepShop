@@ -2,7 +2,7 @@
 
 # SKLEPSHOP
 
-![Alt text]("Screenshot_1.png)
+![Alt text]("Screenshot_1.png")
 
 
 
