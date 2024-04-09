@@ -2,17 +2,6 @@
 
 „SKLEPSHOP”
 
-*Imię i nazwisko: Michał Dyjak*
-
-*Numer albumu: 125114*
-
-*Temat: Aplikacja służąca do obsługi sklepu spożywczego*
-
-*Przedmiot Programowanie Obiektowe*
-
-*Grupa laboratoryjna nr 1*
-
-*Data oddania projektu: 29.01.2024*
 
 1
 
