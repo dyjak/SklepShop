@@ -2,13 +2,13 @@
 
 # SKLEPSHOP
 
-![Alt text](Screenshot_1.png)
-![Alt text](Screenshot_2.png)
-![Alt text](Screenshot_3.png)
-![Alt text](Screenshot_4.png)
-![Alt text](Screenshot_5.png)
-![Alt text](Screenshot_6.png)
-![Alt text](Screenshot_7.png)
+![ss](Screenshot_1.png)
+![ss](Screenshot_2.png)
+![ss](Screenshot_3.png)
+![sst](Screenshot_4.png)
+![ss](Screenshot_5.png)
+![ss](Screenshot_6.png)
+![ss](Screenshot_7.png)
 
 
 
