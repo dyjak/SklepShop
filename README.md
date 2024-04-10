@@ -1,6 +1,6 @@
 
 
-# SKLEPSHOP
+# SklepShop
 
 ![ss](Screenshot_1.png)
 ![ss](Screenshot_2.png)
@@ -48,6 +48,9 @@ Aby efektywnie korzystać z aplikacji, użytkownikowi zaleca się spełnienie na
 - **method** (varchar): Metoda płatności.
 - **date** (varchar): Data i czas dokonania rozliczenia.
 - **total_price** (double): Łączna wartość produktów w danym rozliczeniu.
+
+![ss](db/ss1.png)
+![ss](db/ss2.png)
 
 ## Instrukcja Instalacji
 
